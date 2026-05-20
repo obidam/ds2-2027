@@ -1,0 +1,30 @@
+name: ds2-coiled-2026
+channels:
+  - conda-forge
+dependencies:
+  - python = 3.11
+  - xarray
+  - hvplot
+  - gcsfs
+  - intake
+  - intake-xarray
+  - zarr
+  - cartopy
+  - scikit-learn
+  - seaborn
+  - dask-ml
+  - graphviz
+  - coiled
+  - google-cloud-sdk
+  - ipykernel
+  - argopy = 1.4.0
+  - s3fs
+  - xarrayutils
+  - copernicusmarine
+  - gsw
+
+  - pip
+  - pip:
+    - httpimport
+    - coiled[notebook]
+    - pyopenssl==24.3.0
